@@ -300,7 +300,7 @@ if file2:
 
     minmax_expander_file_2 = tcol2.beta_expander("Show Numeric Range")
 
-    selected_col_df2_1_minmax = minmax_expander_file_2.selectbox('Select to explore numeric statistics [File 2]', col_list_2)
+    selected_col_df2_1_minmax = minmax_expander_file_2.selectbox('Select to explore numeric statistics [File 2]', col_list_4)
 
     if selected_col_df2_1_minmax and is_numeric_dtype(df2_1[selected_col_df2_1_minmax]):
 
