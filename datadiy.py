@@ -214,7 +214,7 @@ if file2:
     if selected_col_df2:
         df2_1 = df2[selected_col_df2]
     else:
-        selected_col_df2 = col_list_1
+        selected_col_df2 = col_list_3
         df2_1 = df2[selected_col_df2]
 
     #=================================
